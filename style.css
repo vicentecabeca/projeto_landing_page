@@ -1,0 +1,128 @@
+/* painel principal*/
+#painel_principal{
+    background-image: url(img/background.svg);
+    font-family: inter;
+    color:#FFFFFF;
+    padding: 50px 0px 100px 0px;
+}
+#logo_dnc{
+    margin: 50px;
+}
+.texto_painel{
+    margin: 50px 0px 50px 100px;
+}
+/*zona de icones*/
+#zona_icones{
+    background-color: #EAECE5;
+    color: #122235;
+    font-family: inter;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icones{
+    margin: 50px 20px 50px 100px;
+}
+.texto_icones{
+    display: flex;
+    align-items: center;
+}
+/* area do video */
+#zona_video{
+    margin-top: 50px ;
+    padding-bottom: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#video{
+    margin-left: 100px;
+}
+#texto1_video{
+    margin-left: 50px;
+    font-size: 40px;
+    color: #247BA0;
+}
+#texto2_video{
+    font-size: 15px;
+    color: #383838;
+    margin-left: 50px;
+}
+.texto_video{
+    font-family: inter;
+}
+/* area de depoimentos */
+#area_dep{
+    padding-top: 50px;
+    background-color: #247BA0;
+   
+}
+#text_dep{
+    text-align: center;
+    color: #FFFFFF;
+}
+#area_dep2{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-bottom: 50px;
+}
+#seta_esquerda{
+    display: none;
+}
+#cadbruna{
+    display: none;
+}
+.cards{
+    margin: 20px;
+}
+.setas{
+    margin-top: 260%;
+    cursor: pointer;
+}
+
+.setas:hover{
+    transform: translateY(-7px);
+    transition-duration: 1s;
+}
+
+/* area de formulario */
+#formulario{
+    text-align: center;
+}
+
+#texto_formulario{
+    font-size: 25px;
+    margin-bottom: 55px;
+}
+
+input{
+    background-color: #EAECE5;
+    Width: 313px;
+    Height: 40px;
+    margin: 10px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    cursor: text;
+}
+
+button{
+    cursor: pointer;
+    background-color:#247BA0;
+    Width: 300px;
+    Height: 53px;
+    font-family: inter;
+    border: 0px;
+    border-radius: 10px;
+    margin: 20px;
+    font-weight: bolder;
+    color: #EAECE5;
+}
+button:hover{
+    background-color:#3082a5 ;
+    color: white;
+    transform: translateY(-7px);
+    transition-duration: 1s;
+    box-shadow:  0px 10px 15px 0px  #0a304185;
+}
